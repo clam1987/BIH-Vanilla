@@ -1,0 +1,108 @@
+/* Font Dependancies */
+@font-face {
+    font-family: "Playlist";
+    src: url("../fonts/Playlist_Script.otf") format("truetype");
+}
+
+/* Navbar */
+.nav-item {
+    margin-right: 45px;
+  }
+  
+  .navbar-nav {
+    width: 100%;
+  }
+  
+  .navbar-nav a:hover {
+    border-bottom: 11px solid #2e7d39;
+  }
+  
+  .bannerImage {
+    width: 100%;
+  }
+  
+  .nav-link {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  #aboutMe {
+    font-size: 0.9375rem;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .dropdown-item {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 493px) {
+    .navbar-nav {
+      width: 116%;
+    }
+  }
+
+  /* Banner 1 */
+  .banner {
+    /* height: fit-content; */
+    height: auto;
+    width: 100%;
+    background-color: #2e7d39;
+  }
+  
+  .bannerText {
+    height: auto;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    text-align: left;
+  }
+  
+  .firstWord {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    margin: 0.75em 0;
+    text-align: left;
+  }
+  
+  .bannerImg {
+    width: 80%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 600px) {
+  .bannerImg {
+      width: 100%;
+      height: auto;
+  }
+}
+
+  @media screen and (max-width: 1023px) and (min-width: 601px) {
+    .bannerImg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1919px) and (min-width: 1024px) {
+    .bannerImg {
+        width: 100%;
+        height: 100%;
+    }
+  }
+  
+  /* Gallery */
+  @media screen and (max-width: 1023px) and (min-width: 600px) {
+    #homeImgRow {
+        margin-right: -5px;
+    }
+}
+  
