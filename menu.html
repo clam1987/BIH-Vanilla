@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./assets/css/menu.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="img-fluid bannerImage"
+              src="./assets/img/nav/BIH.png"
+              alt="img"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">
+                  MENU <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  href="#"
+                  id="aboutMe"
+                >
+                  OUR STORY
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="aboutUs.html">
+                    ABOUT US
+                  </a>
+                  <a class="dropdown-item" href="testimonials.html">
+                    TESTIMONIALS
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ingredients.html">
+                  INGREDIENTS
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="programs.html">
+                  PROGRAMS
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resources.html">
+                  RESOURCES
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    
+          <!-- Footer -->
+          <footer class="page-footer font-small pt-4">
+            <div class="container-fluid text-center">
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                  <h4 class="footerHeader">
+                    Don't miss out on Health Facts, Promotions, and Events from us!
+                  </h4>
+                  <p class="t1">
+                    Get the latest information delivered to your inbox. Unsubscribe
+                    at anytime.
+                  </p>
+                </div>
+                <div class="col-md-1"></div>
+              </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-6 mb-4">
+                  <form class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-right-0 border-success shadow-none py-4 pr-4 mr-n5 bg-transparent footerInput"
+                      placeholder="enter email address"
+                      aria-label="Your email"
+                      aria-describedby="basic-addon2"
+                      value=""
+                    />
+                    <button
+                      class="btn btn-sm btn-outline-white my-0 subBtn"
+                      type="button"
+                    >
+                      Subscribe
+                    </button>
+                  </form>
+                  <!-- <h3>Thank you for subscribing!</h3> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md d-flex justify-content-center">
+                  <p id="contact">CONTACT US:</p>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-center">
+                <ul class="list-unstyled list-inline text-center">
+                  <li class="list-inline-item">
+                    <a
+                      class="btn-floating btn-fb mx-1"
+                      type="button"
+                      href="https://www.facebook.com/BlendItHealthy/"
+                    >
+                      <i class="fab fa-facebook-square"> </i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      class="btn-floating btn-gplus mx-1"
+                      type="button"
+                      href="https://www.instagram.com/blendithealthy/"
+                    >
+                      <i class="fab fa-instagram"> </i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      class="btn-floating btn-tw mx-1"
+                      type="button"
+                      href="https://twitter.com/blendithealthy?lang=en"
+                    >
+                      <i class="fab fa-twitter"> </i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      class="btn-floating btn-li mx-1"
+                      type="button"
+                      href="https://www.yelp.com/biz/blend-it-healthy-arcadia"
+                    >
+                      <i class="fab fa-yelp"> </i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      class="btn-floating btn-dribbble mx-1"
+                      type="button"
+                      href="mailto:arcadia@blendithealthy.com"
+                    >
+                      <i class="far fa-envelope"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="info">BLEND IT HEALTHY</p>
+                </div>
+                <div class="col-sm-3">
+                  <p class="info">(626) 656-3718</p>
+                </div>
+                <div class="col-sm-6">
+                  <p class="address">
+                    411 E Huntington Drive, St. 114, Arcadia, CA 91006
+                  </p>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+        <script
+          src="https://kit.fontawesome.com/e70a0388d4.js"
+          crossorigin="anonymous"
+        ></script>
+        <script src="./assets/js/app.js"></script>
+</body>
+</html>
