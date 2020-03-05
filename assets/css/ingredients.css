@@ -79,6 +79,55 @@ ul {
   margin-bottom: 4em;
 }
 
+/* List of Images, result 1 */
+.fruitsCollection {
+  height: 176px;
+  width: 176px;
+  border-radius: 100%;
+  border: tomato 5px solid;
+}
+
+
+/* Reverse the row on these items */
+#Avocado {
+  flex-direction: row-reverse;
+}
+
+#Beets {
+  flex-direction: row-reverse;
+}
+
+#Blueberry {
+  flex-direction: row-reverse;
+}
+
+#Carrot {
+  flex-direction: row-reverse;
+}
+
+#Grape {
+  flex-direction: row-reverse;
+}
+#Kale {
+  flex-direction: row-reverse;
+}
+#Orange {
+  flex-direction: row-reverse;
+}
+#Peach {
+  flex-direction: row-reverse;
+}
+#Plum {
+  flex-direction: row-reverse;
+}
+#Raspberry {
+  flex-direction: row-reverse;
+}
+#Strawberry {
+  flex-direction: row-reverse;
+}
+
+
 /* Footer */
 .page-footer {
     border-top: 2px solid #2e7d39;
