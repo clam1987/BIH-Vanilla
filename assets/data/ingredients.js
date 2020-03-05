@@ -5,7 +5,11 @@ const ingredients = [
         description: "Antioxidant\n Cardiovascular Benefits\n Blood Sugar Regulation",
         link: "https://www.medicalnewstoday.com/articles/267290.php#benefits",
         img: "./assets/img/ingredients/apple.jpg",
-        style: "border: 5px solid rgb(186, 17, 11);"
+        styleBorder: "border: 5px solid rgb(186, 17, 11);",
+        styleTitle: "color: rgb(186, 17, 11);",
+        styleText: "color: rgb(224, 99, 94);",
+        id2: "desc1",
+        id3: "fruit1"
     },
     {
         id: "name2",
