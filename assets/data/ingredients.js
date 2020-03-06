@@ -5,9 +5,9 @@ const ingredients = [
         description: "Antioxidant\n Cardiovascular Benefits\n Blood Sugar Regulation",
         link: "https://www.medicalnewstoday.com/articles/267290.php#benefits",
         img: "./assets/img/ingredients/apple.jpg",
-        styleBorder: "border: 5px solid rgb(186, 17, 11);",
-        styleTitle: "color: rgb(186, 17, 11);",
-        styleText: "color: rgb(224, 99, 94);",
+        styleBorder: "#BA110B 5px solid;",
+        styleTitle: "#BA110B;",
+        styleText: "#E0635E;",
         id2: "desc1",
         id3: "fruit1"
     },
@@ -16,122 +16,207 @@ const ingredients = [
         name: "Avocado",
         description: "Anti-Inflammatory\n Promote Heart Healthy\n Anti-Cancer Benefits",
         link: "https://www.medicalnewstoday.com/articles/318620.php#nutrition",
-        img: "./assets/img/ingredients/avocado.jpg"
+        img: "./assets/img/ingredients/avocado.jpg",
+        styleBorder: "#3A813A 5px solid;",
+        styleTitle: "#3A813A;",
+        styleText: "#79B579;",
+        id2: "desc2",
+        id3: "fruit2"
     },
     {
         id: "name3",
         name: "Banana",
         description:  "Protect Eyesight\n Prevent High Blood Pressure\n Best Source of Potassium",
         link: "https://www.medicalnewstoday.com/articles/271157.php#nutrition",
-        img: "./assets/img/ingredients/banana.jpg"
+        img: "./assets/img/ingredients/banana.jpg",
+        styleBorder: "#F6DD38 5px solid;",
+        styleTitle: "#F6DD38;",
+        styleText: "#FFBE53;",
+        id2: "desc3",
+        id3: "fruit3"
     },
     {
         id: "name4",
         name: "Beets",
         description: "Antioxidants\n Detoxification\n Anti-Inflammatory",
         link: "https://www.medicalnewstoday.com/articles/277432.php",
-        img: "./assets/img/ingredients/beet.jpg"
+        img: "./assets/img/ingredients/beet.jpg",
+        styleBorder: "#81272A 5px solid;",
+        styleTitle: "#81272A;",
+        styleText: "#C04E52;",
+        id2: "desc4",
+        id3: "fruit4"
     },
     {
         id: "name5",
         name: "Blackberry",
         description: "Vitamin E\n Antioxidants\n Vitamin C",
         link: "https://www.healthline.com/nutrition/11-reasons-to-eat-berries#section1",
-        img: "./assets/img/ingredients/blackberry.jpg"
+        img: "./assets/img/ingredients/blackberry.jpg",
+        styleBorder: "#000000 5px solid;",
+        styleTitle: "#000000;",
+        styleText: "#6C6C6C;",
+        id2: "desc5",
+        id3: "fruit5"
     },
     {
         id: "name6",
         name: "Blueberry",
         description: "Cardiovascular Benefits\n Anti-Cancer Benefits\n Supports Vision Health",
         link: "https://www.medicalnewstoday.com/articles/287710.php#benefits",
-        img: "./assets/img/ingredients/blueberry.jpg"
+        img: "./assets/img/ingredients/blueberry.jpg",
+        styleBorder: "#67749E 5px solid;",
+        styleTitle: "#67749E;",
+        styleText: "#8A9ACB;",
+        id2: "desc6",
+        id3: "fruit6"
     },
     {
         id: "name7",
         name: "Cantaloupe",
         description: "Anti-Inflammatory\n Antioxidants\n Vitamin A",
         link: "https://www.medicalnewstoday.com/articles/279176.php",
-        img: "./assets/img/ingredients/cantaloupe.jpg"
+        img: "./assets/img/ingredients/cantaloupe.jpg",
+        styleBorder: "#FEB151 5px solid;",
+        styleTitle: "#FEB151;",
+        styleText: "#F0BE80;",
+        id2: "desc7",
+        id3: "fruit7"
     },
     {
         id: "name8",
         name: "Carrot",
         description: "Vision Health\n Antioxidants\n Anti-Cancer Benefits",
         link: "https://www.medicalnewstoday.com/articles/270191.php",
-        img: "./assets/img/ingredients/carrot.jpg"
+        img: "./assets/img/ingredients/carrot.jpg",
+        styleBorder: "#F99349 5px solid;",
+        styleTitle: "#F99349;",
+        styleText: "#FFA563;",
+        id2: "desc8",
+        id3: "fruit8"
     },
     {
         id: "name9",
         name: "Celery",
         description: "Anti-Inflammatory\n Digestive Support\n Cardiovascular Support",
         link: "https://www.medicalnewstoday.com/articles/270678.php#benefits",
-        img: "./assets/img/ingredients/celery.jpg"
+        img: "./assets/img/ingredients/celery.jpg",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     }
 ];
 
 const ingredients2 = [
     {
         id: "name10",
-        name: "",
-        description: "",
-        link: "",
-        img: ""
+        name: "Cucumber",
+        description: "Manganese\n Vitamin C\n Antioxidants",
+        link: "https://www.medicalnewstoday.com/articles/283006.php",
+        img: "./assets/img/ingredients/cucumber.jpg",
+        styleBorder: "#7AB36B 5px solid;",
+        styleTitle: "#7AB36B;",
+        styleText: "#91BA86;",
+        id2: "desc10",
+        id3: "fruit10"
     },
     {
         id: "name11",
-        name: "",
-        description: "",
-        link: "",
-        img: ""
+        name: "Grape",
+        description: "Antioxidants\n Cardiovascular Benefits\n Anti-Cancer Benefits",
+        link: "https://www.medicalnewstoday.com/articles/271156.php",
+        img: "./assets/img/ingredients/grape.png",
+        styleBorder: "#8D0086 5px solid;",
+        styleTitle: "#8D0086;",
+        styleText: "#D073CC;",
+        id2: "desc11",
+        id3: "fruit11"
     },
     {
         id: "name12",
-        name: "",
-        description: "",
-        link: "",
-        img: ""
+        name: "Honeydew",
+        description: "Vitamin B-6\n Vitamin C\n Best Sources of Potassium",
+        link: "https://www.medicalnewstoday.com/articles/271156.php",
+        img: "./assets/img/ingredients/honeydew.jpg",
+        styleBorder: "#95CD8E 5px solid;",
+        styleTitle: "#95CD8E;",
+        styleText: "#99D292;",
+        id2: "desc12",
+        id3: "fruit12"
     },
     {
         id: "name13",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name14",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name15",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name16",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name17",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name18",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
 ];
 
@@ -141,62 +226,107 @@ const ingredients3 = [
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name20",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name21",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name22",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name23",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name24",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name25",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name26",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
     {
         id: "name27",
         name: "",
         description: "",
         link: "",
-        img: ""
+        img: "",
+        styleBorder: "#99BF1E 5px solid;",
+        styleTitle: "#99BF1E;",
+        styleText: "#AECF45;",
+        id2: "desc9",
+        id3: "fruit9"
     },
 ]
