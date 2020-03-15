@@ -188,7 +188,7 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 1.5px;
+  padding-bottom: .5px;
   padding-left: 80px;
   margin-left: -15px;
   padding-right: 5px;
@@ -201,7 +201,7 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 1.5px;
+  padding-bottom: .5px;
   padding-left: 0px;
   margin-left: 181px;
   padding-right: 75px;
@@ -215,7 +215,7 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 1.5px;
+  padding-bottom: .5px;
   padding-left: 80px;
   margin-left: -15px;
   padding-right: 5px;
@@ -232,7 +232,7 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 1.5px;
+  padding-bottom: .5px;
   padding-left: 0px;
   margin-left: 181px;
   padding-right: 75px;
@@ -251,7 +251,7 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 1.5px;
+  padding-bottom: .5px;
   padding-left: 80px;
   margin-left: -15px;
   padding-right: 5px;
@@ -268,7 +268,7 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 1.5px;
+  padding-bottom: .5px;
   padding-left: 0px;
   margin-left: 181px;
   padding-right: 75px;
@@ -282,7 +282,7 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 1.5px;
+  padding-bottom: .5px;
   padding-left: 80px;
   margin-left: -15px;
   padding-right: 5px;
@@ -300,7 +300,7 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 1.5px;
+  padding-bottom: .5px;
   padding-left: 0px;
   margin-left: 181px;
   padding-right: 75px;
@@ -319,7 +319,7 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 1.5px;
+  padding-bottom: .5px;
   padding-left: 80px;
   margin-left: -15px;
   padding-right: 5px;
@@ -329,6 +329,281 @@ ul {
 #listContainer2 {
   margin-top: 1em;
   margin-bottom: 4em;
+}
+#fruit10 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: -15px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#desc10 {
+  padding-left: 52px;
+}
+
+#fruit11 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: 177px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#desc11 {
+  padding-left: 15px;
+}
+
+#fruit12 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: -15px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#desc12 {
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+#fruit13 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: 177px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#desc13 {
+  padding-left: 15px;
+}
+
+#fruit14 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: -15px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#fruit15 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: 177px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#fruit16 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: -15px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#fruit17 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: 177px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#desc17 {
+  padding-left: 65px;
+}
+
+#fruit18 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: -15px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#desc18 {
+  padding-left: 30px;
+}
+
+/* List of results 3 */
+#listContainer3 {
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+
+#fruit19 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: -15px;
+  padding-right: 75px;
+}
+
+#desc19 {
+  padding-left: 45px;
+}
+
+#fruit20 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: 177px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#fruit21 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: -15px;
+  padding-right: 75px;
+}
+
+#desc21 {
+  padding-left: 78px;
+  padding-top: 5px;
+}
+
+#fruit22 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: 177px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#name22 {
+  right: 10px;
+}
+
+#fruit23 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: -15px;
+  padding-right: 75px;
+}
+
+#fruit24 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: 177px;
+  padding-right: 75px;
+  margin-right: -16px;
+}
+
+#name24 {
+  right: 45px;
+}
+
+#desc24 {
+  right: 32px;
+}
+
+#fruit25 {
+  font-family: "Poppins";
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 0.35px solid black;
+  padding-bottom: 0.5px;
+  padding-left: 0px;
+  margin-left: -15px;
+  padding-right: 75px;
+}
+
+#desc25 {
+  padding-left: 55px;
 }
 
 /* Footer */
@@ -401,3 +676,14 @@ ul {
   .footerInput {
     border-radius: 2rem;
   }
+
+  /* Media Querries */
+  @media screen and (max-width: 600px) {
+    .fruitsCollection {
+      height: 176px;
+      width: 176px;
+      border-radius: 100%;
+      border: tomato 5px solid;
+    }
+  }
+  

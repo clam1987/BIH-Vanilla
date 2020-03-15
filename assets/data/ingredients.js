@@ -106,10 +106,7 @@ const ingredients = [
         styleText: "#AECF45;",
         id2: "desc9",
         id3: "fruit9"
-    }
-];
-
-const ingredients2 = [
+    },
     {
         id: "name10",
         name: "Cucumber",
@@ -127,7 +124,7 @@ const ingredients2 = [
         name: "Grape",
         description: "Antioxidants\n Cardiovascular Benefits\n Anti-Cancer Benefits",
         link: "https://www.medicalnewstoday.com/articles/271156.php",
-        img: "./assets/img/ingredients/grape.png",
+        img: "./assets/img/ingredients/grapes.png",
         styleBorder: "#8D0086 5px solid;",
         styleTitle: "#8D0086;",
         styleText: "#D073CC;",
@@ -218,9 +215,6 @@ const ingredients2 = [
         id2: "desc18",
         id3: "fruit18"
     },
-];
-
-const ingredients3 = [
     {
         id: "name19",
         name: "Pineapple",
@@ -305,4 +299,4 @@ const ingredients3 = [
         id2: "desc25",
         id3: "fruit25"
     }
-]
+];
