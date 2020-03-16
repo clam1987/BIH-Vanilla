@@ -69,6 +69,11 @@
   }
 }
 
+/* Pagination Nav */
+#paginationNav {
+  margin-top: 2em;
+}
+
 /* List of results 1 */
 ul {
   list-style-type: none;
@@ -86,7 +91,19 @@ ul {
   border-radius: 100%;
   border: tomato 5px solid;
 }
+.page-item .page-link {
+  z-index: 1;
+  color: #2e7d39;
+  background-color: #ffffff;
+  border-color: #2e7d39;
+}
 
+.page-item.active .page-link {
+  z-index: 1;
+  color: #ffffff;
+  background-color: #2e7d39;
+  border-color: #2e7d39;
+}
 
 /* Reverse the row on these items */
 #Avocado {
