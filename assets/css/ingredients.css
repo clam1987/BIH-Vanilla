@@ -162,7 +162,7 @@ ul {
 }
 
 .fruitsDescription {
-  white-space: unset;
+  white-space: pre-line;
   font-family: "Poppins Regular", sans-serif;
   font-size: 22.5px;
 }
@@ -222,7 +222,8 @@ ul {
 }
 
 #desc3 {
-  padding-top: 10px;
+  padding-top: 32px;
+  font-size: 20.1px;
 }
 
 #fruit4 {
@@ -337,15 +338,18 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
-  padding-left: 0px;
+  padding-bottom: .5px;
+  padding-left: 80px;
   margin-left: -15px;
-  padding-right: 75px;
-  margin-right: -16px;
+  padding-right: 5px;
+}
+
+#name10 {
+  padding-left: 72px;
 }
 
 #desc10 {
-  padding-left: 52px;
+  padding-left: 110px;
 }
 
 #fruit11 {
@@ -364,6 +368,7 @@ ul {
 
 #desc11 {
   padding-left: 15px;
+  font-size: 22px
 }
 
 #fruit12 {
@@ -373,16 +378,19 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
-  padding-left: 0px;
+  padding-bottom: .5px;
+  padding-left: 80px;
   margin-left: -15px;
-  padding-right: 75px;
-  margin-right: -16px;
+  padding-right: 5px;
+}
+
+#name12 {
+  padding-left: 45px;
 }
 
 #desc12 {
-  padding-left: 50px;
-  padding-top: 15px;
+  padding-left: 65px;
+  padding-top: 20px;
 }
 
 #fruit13 {
@@ -400,7 +408,8 @@ ul {
 }
 
 #desc13 {
-  padding-left: 15px;
+  padding-left: 13px;
+  padding-top: 20px;
 }
 
 #fruit14 {
@@ -410,11 +419,10 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
-  padding-left: 0px;
+  padding-bottom: .5px;
+  padding-left: 80px;
   margin-left: -15px;
-  padding-right: 75px;
-  margin-right: -16px;
+  padding-right: 5px;
 }
 
 #fruit15 {
@@ -438,11 +446,10 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
-  padding-left: 0px;
+  padding-bottom: .5px;
+  padding-left: 80px;
   margin-left: -15px;
-  padding-right: 75px;
-  margin-right: -16px;
+  padding-right: 5px;
 }
 
 #fruit17 {
@@ -470,15 +477,14 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
-  padding-left: 0px;
+  padding-bottom: .5px;
+  padding-left: 80px;
   margin-left: -15px;
-  padding-right: 75px;
-  margin-right: -16px;
+  padding-right: 5px;
 }
 
 #desc18 {
-  padding-left: 30px;
+  padding-left: 45px;
 }
 
 /* List of results 3 */
@@ -494,14 +500,14 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
-  padding-left: 0px;
+  padding-bottom: .5px;
+  padding-left: 80px;
   margin-left: -15px;
-  padding-right: 75px;
+  padding-right: 5px;
 }
 
 #desc19 {
-  padding-left: 45px;
+  padding-left: 22px;
 }
 
 #fruit20 {
@@ -511,9 +517,9 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
+  padding-bottom: .5px;
   padding-left: 0px;
-  margin-left: 177px;
+  margin-left: 181px;
   padding-right: 75px;
   margin-right: -16px;
 }
@@ -525,15 +531,20 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
-  padding-left: 0px;
+  padding-bottom: .5px;
+  padding-left: 80px;
   margin-left: -15px;
-  padding-right: 75px;
+  padding-right: 5px;
+}
+
+#name21 {
+  font-size: 59px;
+  padding-top: 35px;
 }
 
 #desc21 {
-  padding-left: 78px;
-  padding-top: 5px;
+  padding-left: 0px;
+  padding-top: 27px;
 }
 
 #fruit22 {
@@ -543,9 +554,9 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
+  padding-bottom: .5px;
   padding-left: 0px;
-  margin-left: 177px;
+  margin-left: 181px;
   padding-right: 75px;
   margin-right: -16px;
 }
@@ -561,10 +572,10 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
-  padding-left: 0px;
+  padding-bottom: .5px;
+  padding-left: 80px;
   margin-left: -15px;
-  padding-right: 75px;
+  padding-right: 5px;
 }
 
 #fruit24 {
@@ -574,9 +585,9 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
+  padding-bottom: .5px;
   padding-left: 0px;
-  margin-left: 177px;
+  margin-left: 181px;
   padding-right: 75px;
   margin-right: -16px;
 }
@@ -596,14 +607,18 @@ ul {
   font-weight: bold;
   font-size: 18px;
   border-bottom: 0.35px solid black;
-  padding-bottom: 0.5px;
-  padding-left: 0px;
+  padding-bottom: .5px;
+  padding-left: 80px;
   margin-left: -15px;
-  padding-right: 75px;
+  padding-right: 5px;
 }
 
 #desc25 {
-  padding-left: 55px;
+  padding-left: 40px
+}
+
+#name25 {
+  font-size: 65px;
 }
 
 /* Footer */
