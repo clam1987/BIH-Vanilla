@@ -1,3 +1,9 @@
+/* Font Dependancies */
+@font-face {
+  font-family: "Playlist";
+  src: url("../fonts/Playlist_Script.otf") format("truetype");
+}
+
 /* Navbar */
 .nav-item {
     margin-right: 45px;
@@ -40,6 +46,55 @@
     }
   }
 
+/* Banner */
+.reUse {
+  background-color: #ff9c32;
+}
+
+.bannerTextReUse {
+  font-family: "Playlist";
+  color: white;
+  font-size: 120px;
+  text-align: center;
+  padding-left: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .bannerTextReUse {
+    font-family: "Playlist";
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 3.1rem;
+  }
+}
+
+/* Prgoram images */
+#progsImg {
+  max-width: 960px;
+}
+
+#progsRow {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+#progsRow1 {
+  margin-top: -1em;
+  margin-bottom: 2em;
+}
+
+#progsRow2 {
+  margin-top: -3.2em;
+  margin-bottom: 2.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  #progsImg {
+    max-width: 960px;
+    width: 100%;
+  }
+}
 
 
 /* Footer */
