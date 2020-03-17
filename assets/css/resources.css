@@ -69,6 +69,68 @@
   }
 }
 
+/* CardList */
+#cardList {
+
+}
+
+.cardTarget {
+
+}
+
+#cardRow {
+  margin-top: 3em;
+  margin-bottom: -1em;
+}
+
+@media screen and (max-width: 600px) {
+}
+
+/* Button */
+#resourceBtn {
+  background-color: rgba(46, 125, 57, 0.6);
+  max-width: 720px;
+  width: 100%;
+  height: auto;
+  padding: 0.675em;
+  font-family: "Poppins", sans-serif;
+  font-size: 3em;
+  margin-left: 195px;
+}
+
+/* List 2 Media Querries */
+@media screen and (max-width: 320px) {
+  #rowHidden {
+    width: 111%;
+    margin-top: 0em !important;
+    margin-left: -1.975em;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 321px) {
+  #rowHidden {
+    width: 109.2%;
+    margin-top: 0em !important;
+    margin-left: -1.975em;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 600px) {
+  #rowHidden {
+    width: 105%;
+    margin-top: 0em !important;
+    margin-left: -1.975em;
+  }
+}
+
+@media screen and (max-width: 1153px) and (min-width: 1024px) {
+  #rowHidden {
+    width: 105%;
+    margin-top: 0em !important;
+    margin-left: -2.5em;
+  }
+}
+
 /* Footer */
 .page-footer {
     border-top: 2px solid #2e7d39;
