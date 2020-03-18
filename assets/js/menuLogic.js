@@ -40,6 +40,22 @@ $(document).ready(() => {
             break;
         default: 
             return;
-    }
+    };
+    });
+
+    // Button Function for page utility
+    // Share function
+    $("#share").on("click", function() {
+        console.log("hello")
+    });
+
+    // Print function
+    $("#print").on("click", function() {
+        console.log("world");
+    });
+
+    // Download function
+    $("#download").on("click", function() {
+        console.log("hello world");
     });
 });

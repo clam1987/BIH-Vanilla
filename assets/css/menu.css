@@ -117,6 +117,69 @@
   width: 100%;
 }
 
+/* Page Utility */
+#pageUtility {
+  margin-bottom: 1.5em;
+}
+
+.btnCircle {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  background-color: #2e7d39;
+}
+
+.btnCircleM {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  background-color: #2e7d39;
+}
+
+.icons {
+  color: #FFFFFF;
+}
+
+#facebook {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: #3b5998;
+}
+
+#twitter {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: #00acee;
+}
+
+#pininterest {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: #c8232c;
+}
+
+#instagram {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: #3f729b;
+}
+
+#mail {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: darkgray;
+}
+
+#pageUtils {
+  margin-right: 80px;
+}
+
 /* Footer */
 .page-footer {
     border-top: 2px solid #2e7d39;
