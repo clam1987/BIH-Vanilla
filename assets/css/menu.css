@@ -1,3 +1,9 @@
+/* Font Dependancies */
+@font-face {
+  font-family: "Playlist";
+  src: url("../fonts/Playlist_Script.otf") format("truetype");
+}
+
 /* Navbar */
 .nav-item {
     margin-right: 45px;
@@ -40,7 +46,76 @@
     }
   }
 
+/* Banner */
+.reUse {
+  background-color: #ff9c32;
+}
 
+.bannerTextReUse {
+  font-family: "Playlist";
+  color: white;
+  font-size: 120px;
+  text-align: center;
+  padding-left: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .bannerTextReUse {
+    font-family: "Playlist";
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 3.1rem;
+  }
+}
+
+/* Button Row */
+.menuBtn {
+  max-height: 115px;
+  max-width: 171px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Bebas Neue', cursive;
+  color: #FFFFFF;
+}
+
+#rowMenuBtn {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .menuBtn {
+      max-height: 115px;
+      max-width: 288px;
+      height: 100%;
+      width: 100%;
+      font-family: 'Bebas Neue', cursive;
+      color: #FFFFFF;
+      font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 1180px) and (min-width: 600px) {
+  .menuBtn {
+      max-height: 115px;
+      max-width: 171px;
+      height: 100%;
+      width: 100%;
+      font-family: 'Bebas Neue', cursive;
+      color: #FFFFFF;
+      font-size: 15px !important;
+  }
+}
+
+/* Menu Image */
+#menuRowImg {
+  margin-bottom: 3em;
+}
+
+#menuImg {
+  width: 100%;
+}
 
 /* Footer */
 .page-footer {

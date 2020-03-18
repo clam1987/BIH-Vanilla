@@ -1,3 +1,9 @@
+/* Font Dependancies */
+@font-face {
+  font-family: "Playlist";
+  src: url("../fonts/Playlist_Script.otf") format("truetype");
+}
+
 /* Navbar */
 .nav-item {
     margin-right: 45px;
