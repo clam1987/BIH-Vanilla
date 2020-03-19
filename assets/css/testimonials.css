@@ -77,17 +77,18 @@
 }
 
 .carousel-card {
-  height: 300px;
-  width: 200px;
+  height: 280px;
+  width: 400px;
   padding: 20px;
   transition: 1s;
   opacity: 1;
   position: absolute;
   top: 0;
-  background-color: #F58220;
+  background-color: #2e7d39;
   color: #FFF;
   cursor: pointer;
   box-shadow: 1px 2px 3px grey;
+  border-radius: 4%;
 }
 
 .carousel-icon {
