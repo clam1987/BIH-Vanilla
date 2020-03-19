@@ -44,18 +44,54 @@ $(document).ready(() => {
     });
 
     // Button Function for page utility
-    // Share function
-    $("#share").on("click", function() {
-        console.log("hello")
-    });
-
     // Print function
     $("#print").on("click", function() {
-        console.log("world");
+        const img = $("#menuImg").attr("src");
+        const pageLink = "about:blank";
+        const pwa = window.open(pageLink, "_new");
+        pwa.document.open();
+        pwa.document.write(imageToPrint(img));
+        pwa.document.close();
     });
 
     // Download function
     $("#download").on("click", function() {
-        console.log("hello world");
+        const imgAlt = $("#menuImg").attr("alt");
+        const imgSrc = $("#menuImg").attr("src");
+        $("#dl").attr("download", `${imgAlt}.jpg`);
+        $("#dl").attr("href", imgSrc)
     });
+
+    // Modal Buttons
+    // Facebook Icon
+    $("#facebook").on("click", function() {
+        window.open("https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblendityhealthy.com&quote=Blend%20It%20Healthy",
+        "_blank",
+        "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400"
+        );
+    });
+    
+    // Twitter Icon
+    $("#twitter").on("click", function() {
+        window.open("https://twitter.com/intent/tweet?url=https%3A%2F%2Fblendityhealthy.com&hashtags=&original_referer=https%3A%2F%2Fthawing-reef-17651.herokuapp.com%2Fmenu",
+        "_blank",
+        "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400"
+        );
+    });
+
+    // Pinterest Icon
+    $("#pininterest").on("click", function() {
+        window.open("https://pinterest.com/pin/create/button/?url=http%3A//blendithealthy.com/images/FPSlides/ABO_MELOPPLE.jpg&media=Blend%20It%20Healthy&description=Blend%20It%20Healthy",
+        "_blank",
+        "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400"
+        );
+    });
+
+    // Mail Icon
+    $("#mail").on("click", function() {
+        window.open("mailto:" + "arcadia@blendithealthy.com")
+    });
+
+    // Print function
+    const imageToPrint = src => `<html><head><script>function step1(){\nsetTimeout('step2()', 10);}\nfunction step2(){window.print();window.close()}\n</script></head><body onload='step1()'>\n<img src=${src} /></body></html>`;
 });
