@@ -100,8 +100,20 @@
   }
   
   /* Gallery */
-  
-  @media screen and (max-width: 1023px) and (min-width: 600px) {
+  @media screen and (max-width: 600px) {
+    .card {
+      width: 77%;
+      height: auto;
+      margin-left: 38px;
+    }
+    #tangyMango {
+    }
+    #homeImgRow {
+      margin-right: -10px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) and (min-width: 601px) {
     #homeImgRow {
         margin-right: -5px;
     }
