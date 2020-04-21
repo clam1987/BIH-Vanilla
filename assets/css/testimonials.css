@@ -59,7 +59,15 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  #testBanner {
+    height: 200px;
+    width: 19em;
+  }
+}
+
 /* Slider */
+
 /* Carousel */
 .about-us-service-title {
   text-align: center;
@@ -134,6 +142,111 @@
 
 .carousel-card:hover {
 
+}
+
+/* Media Queries for Carousel */
+/* Phones */
+@media only screen and (max-width: 600px) {
+  .carousel-container {
+    height: 424px;
+    min-width: 300px;
+    max-width: 400px;
+  }
+
+  .carousel-card {
+    width: 50%;
+    height: 50%;
+  }
+
+  #far-left {
+    left: 25%;
+    transform: scale(.9) translateY(0%) translateX(-50%);
+    z-index: 5;
+    background-color: #F0F0F0;
+  }
+  
+  #left {
+    left: 38%;
+    transform: scale(1) translateY(0%) translateX(-50%);
+    z-index: 10;
+    background-color: #C3C3C3;
+  }
+  
+  #center {
+    left: 50%;
+    transform: scale(1.05) translateY(0%) translateX(-50%);
+    z-index: 15;
+  }
+  
+  #right {
+    left: 59%;
+    transform: scale(1) translateY(0%) translateX(-50%);
+    z-index: 10;
+    background-color: #C3C3C3;
+  }
+  
+  #far-right {
+    left: 67%;
+    transform: scale(.9) translateY(0%) translateX(-50%);
+    z-index: 5;
+    background-color: #F0F0F0;
+  }
+
+  .carousel-text {
+    font-size: .7rem;
+  }
+}
+
+/* Ipad */
+@media screen and (max-width: 768px) and (min-width: 601px) {
+  .carousel-container {
+    height: 424px;
+    min-width: 300px;
+    max-width: 550px;
+  }
+
+  .carousel-card {
+    width: 50%;
+    height: 50%;
+  }
+
+  #far-left {
+    left: 25%;
+    transform: scale(.9) translateY(0%) translateX(-50%);
+    z-index: 5;
+    background-color: #F0F0F0;
+  }
+  
+  #left {
+    left: 38%;
+    transform: scale(1) translateY(0%) translateX(-50%);
+    z-index: 10;
+    background-color: #C3C3C3;
+  }
+  
+  #center {
+    left: 50%;
+    transform: scale(1.05) translateY(0%) translateX(-50%);
+    z-index: 15;
+  }
+  
+  #right {
+    left: 59%;
+    transform: scale(1) translateY(0%) translateX(-50%);
+    z-index: 10;
+    background-color: #C3C3C3;
+  }
+  
+  #far-right {
+    left: 67%;
+    transform: scale(.9) translateY(0%) translateX(-50%);
+    z-index: 5;
+    background-color: #F0F0F0;
+  }
+
+  .carousel-text {
+    font-size: .7rem;
+  }
 }
 
 /* Footer */

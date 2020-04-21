@@ -83,8 +83,7 @@
   margin-bottom: -1em;
 }
 
-@media screen and (max-width: 600px) {
-}
+
 
 /* Button */
 #resourceBtn {
@@ -96,6 +95,44 @@
   font-family: "Poppins", sans-serif;
   font-size: 3em;
   margin-left: 195px;
+}
+@media screen and (max-width: 600px) {
+  #resourceBtn {
+    background-color: rgba(46, 125, 57, 0.6);
+    max-width: 720px;
+    width: 100%;
+    height: auto;
+    padding: 0.675em;
+    font-family: "Poppins", sans-serif;
+    font-size: 3em;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #resourceBtn {
+    background-color: rgba(46, 125, 57, 0.6);
+    max-width: 720px;
+    width: 100%;
+    height: auto;
+    padding: 0.675em;
+    font-family: "Poppins", sans-serif;
+    font-size: 3em;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #resourceBtn {
+    background-color: rgba(46, 125, 57, 0.6);
+    max-width: 720px;
+    width: 100%;
+    height: auto;
+    padding: 0.675em;
+    font-family: "Poppins", sans-serif;
+    font-size: 3em;
+    margin-left: 105px;
+  }
 }
 
 /* List 2 Media Querries */
