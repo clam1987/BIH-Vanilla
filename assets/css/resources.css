@@ -109,7 +109,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 601px){
   #resourceBtn {
     background-color: rgba(46, 125, 57, 0.6);
     max-width: 720px;
@@ -122,7 +122,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
   #resourceBtn {
     background-color: rgba(46, 125, 57, 0.6);
     max-width: 720px;
