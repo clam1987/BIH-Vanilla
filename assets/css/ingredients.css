@@ -638,6 +638,743 @@ ul {
   font-size: 65px;
 }
 
+/* Fruits Media Query for Phones */
+@media only screen and (max-width: 320px) {
+  /* Apple */
+  #name1 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 60px;
+  }
+
+  .colBottom {
+    border-bottom: 0.35px solid black;
+    height: 176px;
+    padding-top: 25px;
+  }
+
+  .colBottom2 {
+    border-bottom: 0.35px solid black;
+    height: 124px;
+    padding-top: 9px;
+    padding-left: 0px;
+    width: 260px;
+}
+
+  .fruitsText {
+    font-family: "Playlist";
+    font-size: 60px;
+  }
+
+  .fruitsCollection {
+    height: 176px;
+    width: 176px;
+    border-radius: 100%;
+    border: tomato 5px solid;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  #fruit1 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 13px;
+    margin-left: -15px;
+    padding-right: 5px;
+  }
+
+  /* Avocado */
+  #fruit2 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+
+  #Avocado {
+    flex-direction: row;
+  }
+
+  #name2 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 35px;
+  }
+
+  /* Banana */
+  #name3 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 44px;
+  }
+
+  #desc3 {
+    padding-top: 0px;
+    font-size: 20.1px;
+  }
+
+  #fruit3 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Beets */
+
+  #Beets {
+    flex-direction: row;
+  }
+
+  #name4 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 70px;
+  }
+
+  #desc4 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit4 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  
+  /* Blackberry */
+  #name5 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 0px;
+  }
+
+  #desc5 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit5 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Blueberry */
+  #Blueberry {
+    flex-direction: row;
+  }
+  
+  #name6 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 20px;
+  }
+
+  #desc6 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit6 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Cantaloupe */
+  #name7 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 0px;
+  }
+
+  #desc7 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit7 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Carrot */
+  #Carrot {
+    flex-direction: row;
+  }
+
+  #name8 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 50px;
+  }
+
+  #desc8 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit8 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Celery */
+  #name9 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 55px;
+  }
+
+  #desc9 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit9 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Cucumber */
+  #name10 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 30px;
+  }
+
+  #desc10 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit10 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Grape */
+  #Grape {
+    flex-direction: row;
+  }
+
+  #name11 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 60px;
+  }
+
+  #desc11 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit11 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Honeydew */
+  #name12 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 20px;
+  }
+
+  #desc12 {
+    padding-top: 13px;
+    font-size: 20.1px;
+    padding-left: 0px;
+  }
+
+  #fruit12 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Kale */
+  #Kale {
+    flex-direction: row;
+  }
+
+  #name13 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 75px;
+  }
+
+  #desc13 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit13 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Mango */
+  #name14 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 50px;
+  }
+
+  #desc14 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit14 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Orange */
+  #Orange {
+    flex-direction: row;
+  }
+
+  #name15 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 50px;
+  }
+
+  #desc15 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit15 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  /* Papaya */
+  #name16 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 40px;
+  }
+
+  #desc16 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit16 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Peach */
+  #Peach {
+    flex-direction: row;
+  }
+
+  #name17 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 60px;
+  }
+
+  #desc17 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit17 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  /* Persimmon */
+  #name18 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 20px;
+  }
+
+  #desc18 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit18 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Pineapple */
+  #name19 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 20px;
+  }
+
+  #desc19 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit19 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Plum */
+  #Plum {
+    flex-direction: row;
+  }
+
+  #name20 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 70px;
+  }
+
+  #desc20 {
+      padding-top: 12px;
+      font-size: 21.1px;
+      padding-left: 0px;
+  }
+
+  #fruit20 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  /* Pomergranate */
+  #name21 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 0px;
+  }
+
+  #desc21 {
+    padding-top: 12px;
+    font-size: 21.1px;
+    padding-left: 0px;
+  }
+
+  #fruit21 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Raspberry */
+  #Raspberry {
+    flex-direction: row;
+  }
+
+  #name22 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 25px;
+  }
+
+  #desc22 {
+    padding-top: 12px;
+    font-size: 21.1px;
+    padding-left: 0px;
+  }
+
+  #fruit22 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  /* Spinach */
+  #name23 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 40px;
+  }
+
+  #desc23 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit23 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Strawberry */
+  #Strawberry {
+    flex-direction: row;
+  }
+
+  #name24 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 10px;
+    margin-left: 40px;
+  }
+
+  #desc24 {
+    padding-top: 12px;
+    font-size: 21.1px;
+    padding-left: 0px;
+    margin-left: 25px;
+  }
+
+  #fruit24 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: -8px;
+    padding-right: 0px;
+  }
+  /* Watermelon */
+  #name25 {
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    padding-left: 0px;
+  }
+
+  #desc25 {
+    padding-top: 9px;
+    font-size: 22.1px;
+    padding-left: 0px;
+  }
+
+  #fruit25 {
+    font-family: "Poppins";
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 0px;
+    padding-bottom: .5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+}
+
 /* Footer */
 .page-footer {
     border-top: 2px solid #2e7d39;
