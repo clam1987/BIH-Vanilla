@@ -11,25 +11,25 @@ $(document).ready(() => {
         case "red" :
             buttonEl.css("background-color", "#9AB49D")
             currentButton.css("background-color", "#E55538");
-            imgEl.attr("src", "./assets/img/menu/red_menu.png");
+            imgEl.attr("src", "./assets/img/menu/red_menu.jpg");
             imgEl.attr("alt", "red_menu");
             break;
         case "green":
             buttonEl.css("background-color", "#9AB49D")
             currentButton.css("background-color", "#11AC4C");
-            imgEl.attr("src", "./assets/img/menu/green_menu.png");
+            imgEl.attr("src", "./assets/img/menu/green_menu.jpg");
             imgEl.attr("alt", "green_menu");
             break;
         case "blue": 
             buttonEl.css("background-color", "#9AB49D")
             currentButton.css("background-color", "#0093D0");
-            imgEl.attr("src", "./assets/img/menu/blue_menu.png");
+            imgEl.attr("src", "./assets/img/menu/blue_menu.jpg");
             imgEl.attr("alt", "blue_menu");
             break;
         case "purple":
             buttonEl.css("background-color", "#9AB49D")
             currentButton.css("background-color", "#D0336A");
-            imgEl.attr("src", "./assets/img/menu/purple_menu.png");
+            imgEl.attr("src", "./assets/img/menu/purple_menu.jpg");
             imgEl.attr("alt", "purple_menu");
             break;
         case "yellow":
