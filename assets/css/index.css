@@ -118,8 +118,14 @@
   }
 
   /* Modal */
+#modal-close-button {
+  font-size: 4rem;
+  float: right;
+}
+
 #covid-modal-content {
   border-radius: 1.275em;
+  border: 2px #34803f solid;
 }
 
 #covid-modal-header {
@@ -188,6 +194,11 @@
   font-size: 1rem;
   width: 90%;
 }
+
+.x-button {
+  color: white;
+}
+
   
   /* Gallery */
   @media screen and (max-width: 600px) {
