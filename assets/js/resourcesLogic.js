@@ -1,4 +1,5 @@
 $(document).ready(() => {
+    
     const cardListEl = $("#cardList");
     resourceCards1.map(resource => {
         const $li = $("<li>");
@@ -41,6 +42,7 @@ $(document).ready(() => {
         $li.append($divCard);
         cardListEl.append($li);
     });
+
     $("#resourceBtn").on("click", () => {
         $("#resourceBtn").hide();
         resourceCards2.map(resource => {
@@ -84,5 +86,13 @@ $(document).ready(() => {
             $li.append($divCard);
             cardListEl.append($li);
         });
+    });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 90) {
+            $('.back-to-top').fadeIn('slow');
+        } else {
+            $('.back-to-top').fadeOut('slow');
+        }
     });
 });

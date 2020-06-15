@@ -132,4 +132,12 @@ $(".previous-page").on("click", function() {
   }
 });
 
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 90) {
+      $('.back-to-top').fadeIn('slow');
+  } else {
+      $('.back-to-top').fadeOut('slow');
+  }
+});
+
 });
