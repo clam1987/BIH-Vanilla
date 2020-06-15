@@ -97,11 +97,7 @@ $(document).ready(() => {
 
     // Open image in a new window
     imgEl.on("click", () => {
-        imgEl.css("display", "block");
-        imgEl.css("width", "85vw");
-        imgEl.css("height", "85vh");
         const url = imgEl.attr("src");
         window.open(url, "Image")
-        location.reload();
     })
 });
