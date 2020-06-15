@@ -135,16 +135,16 @@
   @media only screen and (min-width: 1025px) and (max-width: 1750px) {
     #storeFront {
       position: relative;
-      left: 25rem;
-      bottom: 11.5rem;
+      left: 41rem;
+      bottom: 8.5rem;
       width: 35%;
       border-radius: 11px;
     }
   
     #storeInside {
       position: relative;
-      left: 10rem;
-      top: 3rem;
+      left: 27rem;
+      top: 5rem;
       width: 26%;
       border-radius: 11px;
     }

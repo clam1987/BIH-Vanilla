@@ -94,4 +94,14 @@ $(document).ready(() => {
 
     // Print function
     const imageToPrint = src => `<html><head><script>function step1(){\nsetTimeout('step2()', 10);}\nfunction step2(){window.print();window.close()}\n</script></head><body onload='step1()'>\n<img src=${src} /></body></html>`;
+
+    // Open image in a new window
+    imgEl.on("click", () => {
+        imgEl.css("display", "block");
+        imgEl.css("width", "85vw");
+        imgEl.css("height", "85vh");
+        const url = imgEl.attr("src");
+        window.open(url, "Image")
+        location.reload();
+    })
 });
