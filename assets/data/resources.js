@@ -8,7 +8,7 @@ const resourceCards1 = [
     },
     {
         title: "WHY WE OFFER HONEY, NOT SUGAR!",
-        p1: "What are their differences? Is hoey better than sugar?",
+        p1: "What are their differences? Is honey better than sugar?",
         img: "./assets/img/resources/honey.jpg",
         link: "https://www.benefits-of-honey.com/honey-vs-sugar.html",
         name: "honey"

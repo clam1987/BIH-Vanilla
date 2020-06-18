@@ -35,6 +35,10 @@
     white-space: nowrap;
   }
   
+  #online-store {
+    white-space: nowrap;
+  }
+
   @media screen and (max-width: 991px) {
     .dropdown-item {
       text-align: center;

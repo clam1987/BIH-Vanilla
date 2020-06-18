@@ -34,6 +34,10 @@
     font-size: 1rem;
     white-space: nowrap;
   }
+
+  #online-store {
+    white-space: nowrap;
+  }
   
   @media screen and (max-width: 991px) {
     .dropdown-item {
@@ -241,8 +245,7 @@
 
 .bottom-banner {
   background-color: #ff9c32;
-  width: 94.8%;
-  margin-left: 0;
+  width: 95.8%;
 }
 
 .bottom-banner-text {
@@ -265,6 +268,9 @@
   #bottom-container {
     margin-left: 2.5%;
   }
+  .bottom-banner {
+    width: 102.7%;
+  }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1199px) {
@@ -272,7 +278,7 @@
     width: 103.2%;
   }
   .bottom-banner {
-    width: 100%
+    width: 103.2%
   }
 }
 
@@ -281,7 +287,7 @@
     width: 104.3%;
   }
   .bottom-banner {
-    width: 100%
+    width: 104.2%
   }
 }
 
@@ -290,13 +296,13 @@
     width: 105.9%;
   }
   .bottom-banner {
-    width: 100%
+    width: 105.9%
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 529px) and (max-width: 600px) {
   .notice {
-    width: 100vw;
+    width: 105.9%;
   }
 
   .notice-title {
@@ -308,10 +314,29 @@
   }
 
   .bottom-banner{
-    width: 100%;
+    width: 105.9%;
   }
 }
 
+@media screen and (min-width: 518px) and (max-width: 529px) {
+  .notice {
+    width: 106%;
+  }
+
+  .bottom-banner{
+    width: 106%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 517px) {
+  .notice {
+    width: 100vw;
+  }
+
+  .bottom-banner{
+    width: 100vw;
+  }
+}
 
 
 
