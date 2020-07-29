@@ -37,6 +37,8 @@
 
   #online-store {
     white-space: nowrap;
+    background-color: #ffec00;
+    color: #2e7d39;
   }
   
   @media screen and (min-width: 992px) and (max-width: 1199px) {
