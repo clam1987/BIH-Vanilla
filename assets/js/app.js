@@ -23,10 +23,6 @@ $(document).ready(function() {
       };
 
     $("#disc-close").on("click", function() {
-        // $("#disclaimer-modal").removeClass('show');
-        // $("#disclaimer-modal").removeClass('show');
-        // $("#disclaimer-modal").addClass('hide');
-        $("#disclaimer-modal").modal('hide')
-        console.log($("#disclaimer-modal"))
+        $("#disclaimer-modal").modal('hide');
     });
 });
